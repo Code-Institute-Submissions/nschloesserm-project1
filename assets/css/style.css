@@ -17,14 +17,14 @@ h1 {
   cursor: cell;
   -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: lightgrey;
 
 }
 
 #title {
   float: left;
   font-size: 260%;
-  margin-left: 15px;
+  margin-left: 30px;
   margin-top: 10px;
 }
 
@@ -51,7 +51,7 @@ h1 {
   color: black;
   -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: lightgrey;
 }
 
 #menu .active:hover {
@@ -147,15 +147,43 @@ h1 {
   100% {top:570px;}
 }
 
-#origins {
-  height: 1000px;
+#middle-img {
+  background-image: url("/assets/images/pexels-alex-green-5692289.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 500px;
   width: 100%;
+  background-color: lightblue;
+}
+
+#origins {
+  height: 500px;
+  width: 98.9%;
+  border-top: 0.5rem solid lightpink;
+  border-left: 0.5rem solid palevioletred;
+  border-right: 0.5rem solid palevioletred;
+  border-bottom: 0.5rem solid lightpink;
   background-color: pink;
 }
 
-#manifesto {
-  height: 1000px;
+#second-middle-img {
+  background-image: url("/assets/images/charles-deluvio-VYfc_iLqe7U-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 500px;
   width: 100%;
+  background-color: lightblue;
+}
+
+#manifesto {
+  height: 500px;
+  width: 98.9%;
+  border-top: 0.5rem solid lightpink;
+  border-left: 0.5rem solid palevioletred;
+  border-right: 0.5rem solid palevioletred;
+  border-bottom: 0.5rem solid lightpink;
   background-color: purple;
 }
 
@@ -195,3 +223,4 @@ h1 {
 .dropdown-content li:hover {
   background-color: grey;
 }
+
