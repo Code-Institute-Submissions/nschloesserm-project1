@@ -1,62 +1,85 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: helvetica, sans-serif;
-    color: black;
-    background-color: lightgrey;
+  font-family: helvetica, sans-serif;
+  color: black;
+  background-color: lightgrey;
 }
 
 h1 {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: black;
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: black;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+
 }
 
 #title {
-    float: left;
-    font-size: 260%;
-    margin-left: 15px;
-    margin-top: 10px;
+  float: left;
+  font-size: 260%;
+  margin-left: 15px;
+  margin-top: 10px;
 }
 
 #menu {
-    font-size: 120%;
-    letter-spacing: 4px;
+  font-size: 120%;
+  letter-spacing: 4px;
+  position: sticky;
+  top: 0;
 }
 
 #menu, title {
-    line-height: 75px;
+  line-height: 75px;
 }
 
 #menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
+  float: right;
+  list-style-type: none;
+  margin-right: 20px;
 }
 
 #menu .active {
-    text-decoration: none;
-    padding: 15px;
-    color: black;
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 #menu .active:hover {
-    background-color: white;
+  background-color: white;
+  cursor: cell;
+}
+
+#top-img {
+  background-image: url("/assets/sandwichimg/pexels-lachlan-ross-5967859.jpg");
+  height: 500px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+#origins {
+  height: 1000px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+#manifesto {
+  height: 1000px;
+  width: 100%;
+  background-color: purple;
 }
 
 .dropdown {
   position: relative;
-  text-align-last:right;
+  text-align-last: right;
   padding-right: 29px;
   direction: rtl;
 }
@@ -66,8 +89,7 @@ h1 {
   position: absolute;
   right: 0;
   min-width: 300px;
-  overflow:auto
-  z-index: 1;
+  overflow: auto z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
