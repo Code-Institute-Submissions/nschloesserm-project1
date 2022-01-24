@@ -61,6 +61,9 @@ h1 {
 
 #top-img {
   background-image: url("/assets/sandwichimg/pexels-lachlan-ross-5967859.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
   height: 500px;
   width: 100%;
   background-color: lightblue;
