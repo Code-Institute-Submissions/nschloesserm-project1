@@ -65,10 +65,16 @@ h1 {
   background-color: lightblue;
 }
 
+#sandwich_animation {
+  height: 1000px;
+  width: 100%;
+  background-color: lightgreen;
+}
+
 #origins {
   height: 1000px;
   width: 100%;
-  background-color: lightblue;
+  background-color: pink;
 }
 
 #manifesto {
