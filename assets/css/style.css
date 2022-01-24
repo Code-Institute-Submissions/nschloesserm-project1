@@ -120,31 +120,31 @@ h1 {
 }
 
 @keyframes movement {
-  0%   {top:650px;}
-  50%  {top:850px;}
-  100% {top:650px;}
-}
-
-@keyframes movement2 {
   0%   {top:680px;}
-  50%  {top:855px;}
+  50%  {top:880px;}
   100% {top:680px;}
 }
 
-@keyframes movement3 {
+@keyframes movement2 {
   0%   {top:710px;}
-  50%  {top:855px;}
+  50%  {top:885px;}
   100% {top:710px;}
 }
-@keyframes movement4 {
+
+@keyframes movement3 {
   0%   {top:740px;}
-  50%  {top:855px;}
+  50%  {top:885px;}
   100% {top:740px;}
 }
-@keyframes movement5 {
+@keyframes movement4 {
   0%   {top:770px;}
-  50%  {top:855px;}
+  50%  {top:885px;}
   100% {top:770px;}
+}
+@keyframes movement5 {
+  0%   {top:800px;}
+  50%  {top:885px;}
+  100% {top:800px;}
 }
 
 #middle-img {
