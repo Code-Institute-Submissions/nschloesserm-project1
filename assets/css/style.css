@@ -64,7 +64,7 @@ h1 {
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 750px;
   width: 100%;
   background-color: lightblue;
 }
@@ -120,31 +120,31 @@ h1 {
 }
 
 @keyframes movement {
-  0%   {top:450px;}
-  50%  {top:650px;}
-  100% {top:450px;}
+  0%   {top:650px;}
+  50%  {top:850px;}
+  100% {top:650px;}
 }
 
 @keyframes movement2 {
-  0%   {top:480px;}
-  50%  {top:655px;}
-  100% {top:480px;}
+  0%   {top:680px;}
+  50%  {top:855px;}
+  100% {top:680px;}
 }
 
 @keyframes movement3 {
-  0%   {top:510px;}
-  50%  {top:655px;}
-  100% {top:510px;}
+  0%   {top:710px;}
+  50%  {top:855px;}
+  100% {top:710px;}
 }
 @keyframes movement4 {
-  0%   {top:540px;}
-  50%  {top:655px;}
-  100% {top:540px;}
+  0%   {top:740px;}
+  50%  {top:855px;}
+  100% {top:740px;}
 }
 @keyframes movement5 {
-  0%   {top:570px;}
-  50%  {top:655px;}
-  100% {top:570px;}
+  0%   {top:770px;}
+  50%  {top:855px;}
+  100% {top:770px;}
 }
 
 #middle-img {
