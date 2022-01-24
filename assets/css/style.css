@@ -60,7 +60,7 @@ h1 {
 }
 
 #top-img {
-  background-image: url("/assets/sandwichimg/pexels-lachlan-ross-5967859.jpg");
+  background-image: url("/assets/images/pexels-lachlan-ross-5967859.jpg");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -70,9 +70,81 @@ h1 {
 }
 
 #sandwich_animation {
-  height: 1000px;
-  width: 100%;
-  background-color: lightgreen;
+  height: 550px;
+  width: 98.9%;
+  background-color: lightgrey;
+  border-top: 0.5rem solid grey;
+  border-left: 0.5rem solid black;
+  border-right: 0.5rem solid black;
+  border-bottom: 0.5rem solid grey;
+}
+
+#sandwich-layers img{
+    position: absolute;   
+    left: 30%;
+}
+
+.s-image-1 {
+    position: relative;
+    animation-name: movement;
+    animation-duration: 8s;
+    animation-iteration-count: 30;
+}
+
+.s-image-2 {
+  position: relative;
+  animation-name: movement2;
+  animation-duration: 8s;
+  animation-iteration-count: 30;
+}
+
+.s-image-3 {
+  position: relative;
+  animation-name: movement3;
+  animation-duration: 8s;
+  animation-iteration-count: 30;
+}
+
+.s-image-4 {
+  position: relative;
+  animation-name: movement4;
+  animation-duration: 8s;
+  animation-iteration-count: 30;
+}
+
+.s-image-5 {
+  position: relative;
+  animation-name: movement5;
+  animation-duration: 8s;
+  animation-iteration-count: 30;
+}
+
+@keyframes movement {
+  0%   {top:450px;}
+  50%  {top:650px;}
+  100% {top:450px;}
+}
+
+@keyframes movement2 {
+  0%   {top:480px;}
+  50%  {top:655px;}
+  100% {top:480px;}
+}
+
+@keyframes movement3 {
+  0%   {top:510px;}
+  50%  {top:655px;}
+  100% {top:510px;}
+}
+@keyframes movement4 {
+  0%   {top:540px;}
+  50%  {top:655px;}
+  100% {top:540px;}
+}
+@keyframes movement5 {
+  0%   {top:570px;}
+  50%  {top:655px;}
+  100% {top:570px;}
 }
 
 #origins {
