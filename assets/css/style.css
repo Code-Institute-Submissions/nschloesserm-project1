@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -33,6 +35,7 @@ h1 {
   letter-spacing: 4px;
   position: sticky;
   top: 0;
+  z-index: 3;
 }
 
 #menu, title {
@@ -64,7 +67,7 @@ h1 {
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
-  height: 750px;
+  height: 800px;
   width: 100%;
   background-color: lightblue;
 }
@@ -120,31 +123,31 @@ h1 {
 }
 
 @keyframes movement {
-  0%   {top:680px;}
-  50%  {top:880px;}
-  100% {top:680px;}
+  0%   {top:730px;}
+  50%  {top:930px;}
+  100% {top:730px;}
 }
 
 @keyframes movement2 {
-  0%   {top:710px;}
-  50%  {top:885px;}
-  100% {top:710px;}
+  0%   {top:760px;}
+  50%  {top:935px;}
+  100% {top:760px;}
 }
 
 @keyframes movement3 {
-  0%   {top:740px;}
-  50%  {top:885px;}
-  100% {top:740px;}
+  0%   {top:790px;}
+  50%  {top:935px;}
+  100% {top:790px;}
 }
 @keyframes movement4 {
-  0%   {top:770px;}
-  50%  {top:885px;}
-  100% {top:770px;}
+  0%   {top:820px;}
+  50%  {top:935px;}
+  100% {top:820px;}
 }
 @keyframes movement5 {
-  0%   {top:800px;}
-  50%  {top:885px;}
-  100% {top:800px;}
+  0%   {top:850px;}
+  50%  {top:935px;}
+  100% {top:850px;}
 }
 
 #middle-img {
@@ -152,7 +155,7 @@ h1 {
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 600px;
   width: 100%;
   background-color: lightblue;
 }
@@ -160,31 +163,49 @@ h1 {
 #origins {
   height: 500px;
   width: 98.9%;
-  border-top: 0.5rem solid lightpink;
-  border-left: 0.5rem solid palevioletred;
-  border-right: 0.5rem solid palevioletred;
-  border-bottom: 0.5rem solid lightpink;
-  background-color: pink;
+  position: absolute;
+  background-color: lightgrey;
+  border-top: 0.5rem solid grey;
+  border-left: 0.5rem solid black;
+  border-right: 0.5rem solid black;
+  border-bottom: 0.5rem solid grey;
 }
+
+.origins-content {
+  position: relative;
+  left: 5%;
+  padding-top: 2.5%;
+  font-family: Dela Gothic One, sans-serif; 
+  font-size: 4.5rem;
+ }
 
 #second-middle-img {
   background-image: url("/assets/images/charles-deluvio-VYfc_iLqe7U-unsplash.jpg");
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 800px;
   width: 100%;
   background-color: lightblue;
 }
 
 #manifesto {
-  height: 500px;
+  height: 700px;
   width: 98.9%;
-  border-top: 0.5rem solid lightpink;
-  border-left: 0.5rem solid palevioletred;
-  border-right: 0.5rem solid palevioletred;
-  border-bottom: 0.5rem solid lightpink;
-  background-color: purple;
+  position: absolute;
+  background-color: lightgrey;
+  border-top: 0.5rem solid grey;
+  border-left: 0.5rem solid black;
+  border-right: 0.5rem solid black;
+  border-bottom: 0.5rem solid grey;
+}
+
+.manifesto-content {
+  position: relative;
+ text-align: center;
+  padding-top: 2.5%;
+  font-family: Dela Gothic One, sans-serif; 
+  font-size: 3rem;
 }
 
 .dropdown {
@@ -222,5 +243,31 @@ h1 {
 
 .dropdown-content li:hover {
   background-color: grey;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 98.9%;
+  height: 20%;
+  text-align: center;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+  color: black;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: black;
 }
 
