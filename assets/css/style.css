@@ -245,6 +245,7 @@ h1 {
   background-color: grey;
 }
 
+/* links for footer from the love running project */
 
 footer {
   position: fixed;
@@ -261,13 +262,12 @@ footer {
 
 .social-networks > li {
   display: inline;
-  color: black;
 }
 
 .social-networks i {
   font-size: 160%;
   margin: 1%;
   padding: 5%;
-  color: black;
+  color: gray;
 }
 
