@@ -263,16 +263,17 @@ h1 {
   padding-left: 5%;
   padding-top: 5%;
   font-family: Dela Gothic One, sans-serif;
-  font-size: 4.5rem;
+  font-size: 4.5em;
 }
 
 .origins-history {
   position: relative;
-  width: 810px;
+  width: 58%;
   height: 400px;
-  left: 550px;
-  bottom: 340px;
+  left: 40%;
+  bottom: 68%;
 }
+
 
 #second-middle-img {
   background-image: url("/assets/images/charles-deluvio-VYfc_iLqe7U-unsplash.webp");
@@ -358,7 +359,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 98.9%;
-  height: 20%;
+  height: 17%;
   text-align: center;
 }
 
@@ -381,6 +382,91 @@ footer {
   cursor: cell;
 }
 
-.social-networks:hover {
-  font-size: 200%;
+
+@media screen and (max-width: 1200px) {
+
+  #sandwich_animation{
+    width: 98.5%;
+  }
+
+  #sandwich-layers img {
+    left: 23%;
+  }
+
+  #origins {
+    width: 98.5%;
+  }
+  .origins-content {
+    display: none;
+  }
+
+  .origins-history {
+    left: 60px;
+    top: 30px;
+    width: 88%;
+  }
+
+  #manifesto {
+    width: 98.5%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #sandwich_animation{
+    width: 98%;
+  }
+
+  #sandwich-layers img {
+    left: 18%;
+  }
+
+  #origins {
+    width: 98%;
+  }
+
+  .origins-history {
+    width: 83%;
+  }
+
+  #manifesto {
+    width: 98%;
+  }
+
+  footer {
+    height: 12.5%;
+  }
+}
+
+
+
+
+@media screen and (max-width: 690px) {
+  #menu li {
+    margin-right: 0px;
+  }
+
+  #sandwich_animation{
+    width: 96.9%;
+  }
+
+  #sandwich-layers img {
+    left: 7.5%;
+    width: 85%;
+  }
+
+  #origins {
+    width: 96.9%;
+  }
+
+  .origins-history {
+    width: 80%;
+  }
+
+  #manifesto {
+    width: 96.9%;
+  }
+
+  footer {
+    height: 10%;
+  }
 }
