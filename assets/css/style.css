@@ -77,6 +77,17 @@ h1 {
   background-color: lightblue;
 }
 
+.invis-title {
+  position: absolute;
+  left: 8%;
+  top: 8%;
+  font-size: 5rem;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: lightgrey;
+  display: none;
+}
+
 .right-arrow {
   position: absolute;
   right: 5%;
@@ -243,7 +254,7 @@ h1 {
   background-repeat: no-repeat;
   height: 600px;
   width: 100%;
-  background-color: lightblue;
+  background-color: lightgrey;
 }
 
 #origins {
@@ -282,7 +293,7 @@ h1 {
   background-repeat: no-repeat;
   height: 1150px;
   width: 100%;
-  background-color: lightblue;
+  background-color: lightgrey;
 }
 
 #manifesto {
@@ -412,12 +423,21 @@ footer {
 }
 
 @media screen and (max-width: 950px) {
+  #title {
+    display: none;
+  }
+  .invis-title {
+    display: revert;
+  }
   #sandwich_animation{
     width: 98%;
   }
 
   #sandwich-layers img {
     left: 18%;
+  }
+  #middle-img, #second-middle-img {
+    background-position: top;
   }
 
   #origins {
@@ -441,6 +461,12 @@ footer {
 
 
 @media screen and (max-width: 690px) {
+  .invis-title {
+    left: 5%;
+    top: 12%;
+    font-size: 3rem;
+  }
+
   #menu li {
     margin-right: 0px;
   }
@@ -459,11 +485,15 @@ footer {
   }
 
   .origins-history {
-    width: 80%;
+    width: 75%;
   }
 
   #manifesto {
     width: 96.9%;
+  }
+
+  .manifesto-content {
+    font-size: 2rem;
   }
 
   footer {
