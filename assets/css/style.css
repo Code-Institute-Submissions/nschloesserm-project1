@@ -59,7 +59,9 @@ h1 {
 
 #menu .active:hover {
   background-color: white;
+  border-radius: 30px;
   cursor: cell;
+  opacity: .5;
 }
 
 #top-img {
@@ -72,6 +74,45 @@ h1 {
   background-color: lightblue;
 }
 
+.right-arrow {
+  position: absolute;
+  right: 5%;
+  bottom: 2.5%;
+  font-size: 7rem;
+  opacity: 0;
+  color: lightgrey;
+  animation-name: arrow;
+  animation-duration: 3s;
+  animation-iteration-count: 5;
+}
+
+.left-arrow {
+  position: absolute;
+  left: 5%;
+  bottom: 2.5%;
+  font-size: 7rem;
+  opacity: 0;
+  color: lightgrey;
+  animation-name: arrow;
+  animation-duration: 3s;
+  animation-iteration-count: 5;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: .01;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: .01;
+  }
+}
+
+
 #sandwich_animation {
   height: 550px;
   width: 98.9%;
@@ -82,16 +123,16 @@ h1 {
   border-bottom: 0.5rem solid grey;
 }
 
-#sandwich-layers img{
-    position: absolute;   
-    left: 30%;
+#sandwich-layers img {
+  position: absolute;
+  left: 30%;
 }
 
 .s-image-1 {
-    position: relative;
-    animation-name: movement;
-    animation-duration: 8s;
-    animation-iteration-count: 30;
+  position: relative;
+  animation-name: movement;
+  animation-duration: 8s;
+  animation-iteration-count: 30;
 }
 
 .s-image-2 {
@@ -123,31 +164,73 @@ h1 {
 }
 
 @keyframes movement {
-  0%   {top:730px;}
-  50%  {top:930px;}
-  100% {top:730px;}
+  0% {
+    top: 730px;
+  }
+
+  50% {
+    top: 930px;
+  }
+
+  100% {
+    top: 730px;
+  }
 }
 
 @keyframes movement2 {
-  0%   {top:760px;}
-  50%  {top:935px;}
-  100% {top:760px;}
+  0% {
+    top: 760px;
+  }
+
+  50% {
+    top: 935px;
+  }
+
+  100% {
+    top: 760px;
+  }
 }
 
 @keyframes movement3 {
-  0%   {top:790px;}
-  50%  {top:935px;}
-  100% {top:790px;}
+  0% {
+    top: 790px;
+  }
+
+  50% {
+    top: 935px;
+  }
+
+  100% {
+    top: 790px;
+  }
 }
+
 @keyframes movement4 {
-  0%   {top:820px;}
-  50%  {top:935px;}
-  100% {top:820px;}
+  0% {
+    top: 820px;
+  }
+
+  50% {
+    top: 935px;
+  }
+
+  100% {
+    top: 820px;
+  }
 }
+
 @keyframes movement5 {
-  0%   {top:850px;}
-  50%  {top:935px;}
-  100% {top:850px;}
+  0% {
+    top: 850px;
+  }
+
+  50% {
+    top: 935px;
+  }
+
+  100% {
+    top: 850px;
+  }
 }
 
 #middle-img {
@@ -175,9 +258,9 @@ h1 {
   position: relative;
   left: 5%;
   padding-top: 2.5%;
-  font-family: Dela Gothic One, sans-serif; 
+  font-family: Dela Gothic One, sans-serif;
   font-size: 4.5rem;
- }
+}
 
 #second-middle-img {
   background-image: url("/assets/images/charles-deluvio-VYfc_iLqe7U-unsplash.jpg");
@@ -202,10 +285,17 @@ h1 {
 
 .manifesto-content {
   position: relative;
- text-align: center;
+  text-align: center;
   padding-top: 2.5%;
-  font-family: Dela Gothic One, sans-serif; 
+  font-family: Dela Gothic One, sans-serif;
   font-size: 3rem;
+}
+
+.manifesto-content-2 {
+  position: relative;
+  text-align: center;
+  padding-top: 2.5%;
+  font-family: Dela Gothic One, sans-serif;
 }
 
 .dropdown {
@@ -236,13 +326,15 @@ h1 {
 
 .dropdown-content li a {
   text-decoration: none;
-  color: green;
+  color: grey;
   cursor: cell;
   padding: 0 20px;
 }
 
 .dropdown-content li:hover {
-  background-color: grey;
+  background-color: white;
+  border-radius: 30px;
+  opacity: .5;
 }
 
 /* links for footer from the love running project */
@@ -260,7 +352,7 @@ footer {
   text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
   display: inline;
 }
 
@@ -271,3 +363,10 @@ footer {
   color: gray;
 }
 
+.social-networks a {
+  cursor: cell;
+}
+
+.social-networks:hover {
+  font-size: 200%;
+}
