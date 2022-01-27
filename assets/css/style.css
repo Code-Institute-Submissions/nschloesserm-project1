@@ -375,9 +375,13 @@ footer {
   margin: 1%;
   padding: 0 5%;
   color: #9b7356da;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #9b7356da;
 }
 .social-networks i:hover {
-  color: #5c4433da;
+  -webkit-text-fill-color: #9b7356da;
+  -webkit-text-stroke-color: black;
 }
 .social-networks a {
   cursor: none;
@@ -419,6 +423,7 @@ main {
 
 area {
   outline: 5px solid var(--red);
+  cursor: cell;
 }
 
 .popup {
