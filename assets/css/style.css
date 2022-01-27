@@ -22,7 +22,7 @@ h1 {
   cursor: cell;
   -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: lightgrey;
+  -webkit-text-stroke-color: #ca9570bb;
 
 }
 
@@ -57,7 +57,7 @@ h1 {
   color: black;
   -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: lightgrey;
+  -webkit-text-stroke-color: #ca9570bb;
 }
 
 #menu .active:hover {
@@ -84,7 +84,7 @@ h1 {
   font-size: 5rem;
   -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: lightgrey;
+  -webkit-text-stroke-color: #ca9570bb;
   display: none;
 }
 
@@ -94,7 +94,7 @@ h1 {
   bottom: 2.5%;
   font-size: 7rem;
   opacity: 0;
-  color: lightgrey;
+  color: #ca9570bb;
   animation-name: arrow;
   animation-duration: 3s;
   animation-iteration-count: 5;
@@ -106,7 +106,7 @@ h1 {
   bottom: 2.5%;
   font-size: 7rem;
   opacity: 0;
-  color: lightgrey;
+  color: #ca9570bb;
   animation-name: arrow;
   animation-duration: 3s;
   animation-iteration-count: 5;
@@ -129,12 +129,8 @@ h1 {
 
 #sandwich_animation {
   height: 550px;
-  width: 98.9%;
+  width: 100%;
   background-color: lightgrey;
-  border-top: 0.5rem solid grey;
-  border-left: 0.5rem solid black;
-  border-right: 0.5rem solid black;
-  border-bottom: 0.5rem solid grey;
 }
 
 #sandwich-layers img {
@@ -259,20 +255,16 @@ h1 {
 
 #origins {
   height: 500px;
-  width: 98.9%;
+  width: 100%;
   position: absolute;
   background-color: lightgrey;
-  border-top: 0.5rem solid grey;
-  border-left: 0.5rem solid black;
-  border-right: 0.5rem solid black;
-  border-bottom: 0.5rem solid grey;
 }
 
 .origins-content {
   position: relative;
   text-align: left;
   padding-left: 5%;
-  padding-top: 5%;
+  padding-top: 10%;
   font-family: Dela Gothic One, sans-serif;
   font-size: 4.5em;
 }
@@ -298,13 +290,9 @@ h1 {
 
 #manifesto {
   height: 700px;
-  width: 98.9%;
+  width: 100%;
   position: absolute;
   background-color: lightgrey;
-  border-top: 0.5rem solid grey;
-  border-left: 0.5rem solid black;
-  border-right: 0.5rem solid black;
-  border-bottom: 0.5rem solid grey;
 }
 
 .manifesto-content {
@@ -393,6 +381,11 @@ footer {
   cursor: cell;
 }
 
+.brown-paper {
+  background-image: url("/assets/images/pexels-arina-krasnikova-7002683.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .invis-title-map {
   position: absolute;
@@ -453,9 +446,6 @@ area {
 
 @media screen and (max-width: 1200px) {
 
-  #sandwich_animation{
-    width: 98.5%;
-  }
 
   #sandwich-layers img {
     left: 23%;
