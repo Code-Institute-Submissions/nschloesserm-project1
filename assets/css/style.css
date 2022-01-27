@@ -68,7 +68,7 @@ h1 {
 }
 
 #top-img {
-  background-image: url("project1/assets/images/pexels-lachlan-ross-5967859.webp");
+  background-image: url("/project1/assets/images/pexels-lachlan-ross-5967859.webp");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
