@@ -448,19 +448,21 @@ main {
 /* Form */
 
 .signup-form {
-  margin: 150px 10% 0 0;
+  
   color: #fff;
   background-color: rgba(60, 60, 60, 0.6);
   max-width: 500px;
   position: absolute;
-  bottom:15%;
-  left: 31%;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
   padding: 30px;
 }
 
 .signup-form > h2 {
   color: #fafafa;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .text-input {
@@ -482,9 +484,9 @@ main {
 
 .submit-button {
   margin-top: 20px;
+  margin-left: 40%;
   border-radius: 2px;
   padding: 15px 32px 15px 32px;
-  text-align: center;
   font-size: 100%;
   background-color: #f16c6b;
   color: #fafafa;
