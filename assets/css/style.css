@@ -72,7 +72,6 @@ title {
   position: relative;
   text-align-last: right;
   padding-right: 29px;
-  direction: rtl;
 }
 
 .dropdown-content {
@@ -80,7 +79,6 @@ title {
   position: absolute;
   right: 0;
   min-width: 300px;
-  overflow: auto;
 }
 
 .dropdown:hover .dropdown-content {
@@ -352,7 +350,7 @@ title {
   font-family: "Dela Gothic One", sans-serif;
 }
 
-/* links for footer from the love running project */
+/* HTML for footer borrowed and changed from the love running project */
 
 footer {
   position: fixed;
@@ -411,8 +409,9 @@ footer {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%) scale(0.8, 0.8);
+  transform: translate(-50%, -50%) scale(0.75, 0.75);
   text-align: center;
+  color: white;
 }
 
 /* Map code borrowed from https://matemarschalko.medium.com/interactive-image-maps-and-closable-popups-with-html-and-css-only-31fe36c70092 */
@@ -460,6 +459,7 @@ main {
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 30px;
+  border-radius: 10px;
 }
 
 .signup-form>h2 {
@@ -503,6 +503,24 @@ main {
   color: #da6060;
 }
 
+#gallery-images {
+  clear: both;
+  line-height: 200%;
+  column-count: 4;
+  column-gap: 1%;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+#gallery-images > img {
+  width: 100%;
+}
+
+#gallery-images > img:hover {
+  transform: scale(2, 2);
+}
 
 @media screen and (max-width: 1200px) {
 
@@ -552,7 +570,7 @@ main {
   }
 
   #map-container {
-    transform: translate(-50%, -50%) scale(0.7, 0.7);
+    transform: translate(-50%, -50%) scale(0.65, 0.65);
   }
 
   .signup-form {
