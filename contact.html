@@ -48,22 +48,26 @@
             </li>
         </ul>
     </nav>
+
+    <!-- html borrowed then modified from the love running project -->
+
     <section>
         <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i> </h2>
+            <h2>Contact us!</h2>
             <label for="fname">First Name</label>
             <input id="fname" class="text-input" type="text" name="first_name" required />
             <label for="lname">Last Name</label>
             <input id="lname" class="text-input" type="text"  name="last_name" required />
             <label for="email">Email Address</label>
             <input id="email" class="text-input" type="email" name="email_address" required/>
-            <label for="road">Road</label>
-            <input id="road" type="radio" name ="running_preference" value="road" required/>
-            <label for="trail">Trail</label>
-            <input id="trail" type="radio" name="running_preference" value="trail"/>
-            <label for="both">Both</label>
-            <input id="both" type="radio" name="running_preference" value="both"/>
-            <input class="join-button"  type="submit" value="Let's Run!"/>
+            <label for="comments">Comments and/or sandwich suggestions:</label>
+            <textarea id="comments" class="text-input" type="text" name="comments-sugestions" rows="12" cols="40"></textarea>
+            <p> Would you like to recieve our newsletter?<p>
+            <label for="yes">Yes</label>
+            <input id="yes" type="radio" name ="recieve-newsletter" value="yes"/>
+            <label for="no">No</label>
+            <input id="no" type="radio" name="recieve-newsletter" value="no"/>
+            <input class="submit-button"  type="submit" value="Submit"/>
             
         </form>
  </section> 
