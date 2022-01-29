@@ -411,37 +411,38 @@ footer {
   top: 52%;
   transform: translate(-50%, -50%) scale(0.75, 0.75);
   text-align: center;
-  color: white;
+  color: rgb(202, 181, 164);
+  font-size: 1.5rem;
 }
 
 #map-container>h2 {
-  animation-name: color-change;
+  animation-name: opacity-change;
   animation-duration: 8s;
 }
 
-@keyframes color-change {
+@keyframes opacity-change {
   0% {
-    color: black;
+    opacity: 0;
   }
 
   20% {
-    color: white;
+    opacity: 1;
   }
 
   40% {
-    color: black;
+    opacity: 0;
   }
 
   60% {
-    color: white;
+    opacity: 1;
   }
 
   80% {
-    color: black;
+    opacity: 0;
   }
 
   100% {
-    color: white;
+    opacity: 1;
   }
 }
 
