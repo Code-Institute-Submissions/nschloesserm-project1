@@ -553,11 +553,28 @@ main {
 #gallery-images>img:hover {
   transform: scale(1.3, 1.3);
 }
+
+.history-content-title {
+  text-align: center;
+  margin: 4%;
+}
+
+#history-content section{
+text-align: justify;
+margin: 2.5%;
+}
+
+#montagu-image {
+  text-align: center;
+  transform: scale(0.75, 0.75); 
+}
+
 #references {
   margin: 40px;
 }
+
 #references:first-child {
-color:white;
+  color: white;
 }
 
 #references div {
@@ -571,17 +588,18 @@ color:white;
   border-radius: 10px;
   margin-top: 10px;
   margin-left: 25%;
-  width: 50%; 
+  width: 50%;
 
 }
 
 .history-link:hover {
   background-color: black;
-  color:white;
+  color: white;
 }
+
 .history-link a {
-  color:white;
-text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1200px) {
