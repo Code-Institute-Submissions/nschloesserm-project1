@@ -519,7 +519,7 @@ main {
 }
 
 #gallery-images > img:hover {
-  transform: scale(2, 2);
+  transform: scale(1.5, 1.5);
 }
 
 @media screen and (max-width: 1200px) {
@@ -541,6 +541,9 @@ main {
   .signup-form {
     transform: translate(-50%, -50%) scale(1.05, 1);
   }
+#gallery-images {
+  column-count: 3;
+}
 }
 
 @media screen and (max-width: 950px) {
