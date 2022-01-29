@@ -408,10 +408,19 @@ footer {
 #map-container {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 52%;
   transform: translate(-50%, -50%) scale(0.75, 0.75);
   text-align: center;
   color: white;
+}
+#map-container > h2 {
+  animation-name: color-change;
+  animation-duration: 20s;
+}
+@keyframes color-change {
+  0%   {color: white;}
+  50%  {color: black;}
+  100% {color: white;}
 }
 
 /* Map code borrowed from https://matemarschalko.medium.com/interactive-image-maps-and-closable-popups-with-html-and-css-only-31fe36c70092 */
@@ -447,7 +456,7 @@ main {
   transform: scale(1);
 }
 
-/* Form css borrowed and mdified from the love running project*/
+/* Form css borrowed and modified from the love running project*/
 
 .signup-form {
 
