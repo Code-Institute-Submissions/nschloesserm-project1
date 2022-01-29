@@ -344,10 +344,12 @@ title {
 
 .manifesto-content-2 {
   position: relative;
-  text-align: center;
-  padding: 28%;
+  text-align: justify;
+  padding: 10% 25%;
   padding-top: 2.5%;
-  font-family: "Dela Gothic One", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 1.6rem;
+  font-family: Helvetica, sans-serif;
 }
 
 /* HTML for footer borrowed and changed from the love running project */
@@ -619,6 +621,10 @@ margin: 2.5%;
     width: 88%;
   }
 
+  .manifesto-content-2 {
+    padding: 5% 18%;
+  }
+  
   .signup-form {
     transform: translate(-50%, -50%) scale(1.05, 1);
   }
@@ -653,6 +659,10 @@ margin: 2.5%;
 
   .origins-history {
     width: 83%;
+  }
+
+  .manifesto-content-2 {
+    padding: 5% 12%;
   }
 
   #map-container {
@@ -700,6 +710,10 @@ margin: 2.5%;
 
   .manifesto-content {
     font-size: 2rem;
+  }
+
+  .manifesto-content-2 {
+    padding: 5% 9%;
   }
 
   #map-container {
