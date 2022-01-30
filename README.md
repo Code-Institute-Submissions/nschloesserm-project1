@@ -70,14 +70,10 @@ In addition to the contact page, there is an interactive sandwich map page that 
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Using the developer tools of the browser, I was able to adjust the position and sizing of the elements using media queries.  This was mostly a process of trial and error, systematically adjusting for the size of the screen.  Then I ran a series of lighthouse test to make sure the website was running efficently.  The result of that can be seen in the pdf links below.  I firsts ran these test through the server created in gitpod, then on the github pages final site.  Occasionally having to readjust my media queries to make the site run smoothly regardless of screen size.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+![LighthouseMAIN]()
+![lighthouseMAP]()
 
 ### Validator Testing 
 
