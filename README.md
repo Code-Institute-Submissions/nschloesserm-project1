@@ -15,7 +15,7 @@ In addition to the contact page, there is an interactive sandwich map page that 
   - Featured on all of the pages of the webiste, the navigation bar includes the title of the website which adjusts and changes with the screen size. It also has a home button which returns the user to the first top of the page. Finally, it has a menu which, when hovered over, displays the sandwich origins and manifesto in page links, and the links to the Sandwich Map, Gallery, and Contact pages.
   - The home and menu part of the navigation bar is sticky, which allows the user to have access to them at all time and in all formats. This gives the user access to all parts of the site without the need of the back button or unnecessary scrolling.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/nschloesserm/project1/blob/e2d0eec6f8b85f6606c83f3fb593a4c45c6d5ae4/assets/images/nav-bar.png)
 
 - __The landing page image__
 
