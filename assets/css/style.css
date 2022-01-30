@@ -106,7 +106,7 @@ title {
 }
 
 #top-img {
-  background-image: url("/project1/assets/images/pexels-lachlan-ross-5967859.webp");
+  background-image: url("project1/assets/images/pexels-lachlan-ross-5967859.webp");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -289,6 +289,7 @@ title {
   background-repeat: no-repeat;
   height: 600px;
   width: 100%;
+  background-size: cover;
   background-color: lightgrey;
 }
 
@@ -324,6 +325,7 @@ title {
   background-repeat: no-repeat;
   height: 1150px;
   width: 100%;
+  background-size: cover;
   background-color: lightgrey;
 }
 
