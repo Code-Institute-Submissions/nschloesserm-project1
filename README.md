@@ -108,3 +108,4 @@ The live link can be found here - https://nschloesserm.github.io/project1/
 
 - The photos used throughout the site, with the exception of the map pop ups, came from the free stock images site https://www.pexels.com/
 - The images used for the pop ups came from the sites for the restaurants linked directly beneath them.
+- The painting featured in the Origins section came from https://en.wikipedia.org/wiki/John_Montagu,_4th_Earl_of_Sandwich and is by  Thomas Gainsborough.
