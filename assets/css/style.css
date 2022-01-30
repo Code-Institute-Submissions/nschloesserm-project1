@@ -106,7 +106,7 @@ title {
 }
 
 #top-img {
-  background-image: url("/assets/images/pexels-lachlan-ross-5967859.webp");
+  background-image: url("assets/images/pexels-lachlan-ross-5967859.webp");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -282,7 +282,7 @@ title {
 }
 
 #middle-img {
-  background-image: url("/assets/images/pexels-alex-green-5692289.webp");
+  background-image: url("assets/images/pexels-alex-green-5692289.webp");
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -317,7 +317,7 @@ title {
 
 
 #second-middle-img {
-  background-image: url("/assets/images/charles-deluvio-VYfc_iLqe7U-unsplash.webp");
+  background-image: url("assets/images/charles-deluvio-VYfc_iLqe7U-unsplash.webp");
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -391,7 +391,7 @@ footer {
 }
 
 .brown-paper {
-  background-image: url("/assets/images/pexels-arina-krasnikova-7002683.webp");
+  background-image: url("assets/images/pexels-arina-krasnikova-7002683.webp");
   background-size: cover;
 }
 
@@ -413,7 +413,7 @@ footer {
   top: 52%;
   transform: translate(-50%, -50%) scale(0.75, 0.75);
   text-align: center;
-  color: rgb(202, 181, 164);
+  color: rgb(231, 205, 183);
   font-size: 1.5rem;
 }
 
@@ -459,6 +459,7 @@ main {
 .popup {
   padding: 20px;
   background-color: rgba(196, 140, 94, 0.9);
+  border-radius: 10px;
   color: black;
   font-weight: 100;
   font-size: 18px;
@@ -470,11 +471,39 @@ main {
 
 .popup>.close {
   position: absolute;
+  border-radius: 10px;
   right: -10px;
   top: -10px;
   color: white;
   background-color: #9b7356da;
-  padding: 4px 10px;
+  padding: 10px 20px;
+}
+
+.popup>a {
+  text-decoration: none;
+  color: white;
+  padding: 0 5px;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.popup>a:hover {
+  color: #9b7356da;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.popup>h3 {
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.popup>p {
+  font-size: 2rem;
+}
+
+.popup>img {
+  padding: 10px;
 }
 
 .popup:target {
@@ -562,14 +591,14 @@ main {
   margin: 4%;
 }
 
-#history-content section{
-text-align: justify;
-margin: 2.5%;
+#history-content section {
+  text-align: justify;
+  margin: 2.5%;
 }
 
 #montagu-image {
   text-align: center;
-  transform: scale(0.75, 0.75); 
+  transform: scale(0.75, 0.75);
 }
 
 #references {
@@ -625,7 +654,7 @@ margin: 2.5%;
   .manifesto-content-2 {
     padding: 5% 18%;
   }
-  
+
   .signup-form {
     transform: translate(-50%, -50%) scale(1.05, 1);
   }
