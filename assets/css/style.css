@@ -106,7 +106,7 @@ title {
 }
 
 #top-img {
-  background-image: url("project1/assets/images/pexels-lachlan-ross-5967859.webp");
+  background-image: url("/project1/assets/images/pexels-lachlan-ross-5967859.webp");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -578,6 +578,11 @@ main {
   position: absolute;
   padding: 10%;
   transform: scale(0.9, 0.9)
+}
+
+#gallery-images>h2 {
+  letter-spacing: 2px;
+  color: #8b674dd2;
 }
 
 #gallery-images>img {
