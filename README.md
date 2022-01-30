@@ -46,14 +46,14 @@ In addition to the contact page, there is an interactive sandwich map page that 
 
 - __Sandwich Map__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The map provides an interactive way to see the best places to get a sandwich in each of Dublin's postal codes.  It also shows the user where Sandwiches of Dublin has yet to find the best sandwich, encouraging them to give sugestions.
+  - This section is very useful in finding the best sandwiches in Dublin. 
 
 ![Map](https://github.com/nschloesserm/project1/blob/5b63b554be099412a59fcaf39ab528314d5cf3bb/assets/images/map-page.png)
 
 - __Gallery__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page allows the sandwich loving user to see some images of some of the best sandwiches in the area, as well as get to have more intimate acces to the website owners and their sandwich adventures. 
 
 ![gallery](https://github.com/nschloesserm/project1/blob/436a9022fa345b69b06a28c19f28d6bb59f88c5a/assets/images/gallery-page.png)
 
@@ -63,13 +63,10 @@ In addition to the contact page, there is an interactive sandwich map page that 
 
 ![Contact](https://github.com/nschloesserm/project1/blob/436a9022fa345b69b06a28c19f28d6bb59f88c5a/assets/images/contact-page.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 
-- Another feature idea
+- One ideal feature would be an event page or an event callender. This would give more opportunity for interation between the sandwich loving community in Dublin.
+- Another feature that I would like to add is the ability for the user to submit their own images, and for those images to instantly be a part of the gallery.
 
 ## Testing 
 
