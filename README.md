@@ -72,8 +72,8 @@ In addition to the contact page, there is an interactive sandwich map page that 
 
 Using the developer tools of the browser, I was able to adjust the position and sizing of the elements using media queries.  This was mostly a process of trial and error, systematically adjusting for the size of the screen.  Then I ran a series of lighthouse test to make sure the website was running efficently.  The result of that can be seen in the pdf links below.  I firsts ran these test through the server created in gitpod, then on the github pages final site.  Occasionally having to readjust my media queries to make the site run smoothly regardless of screen size.
 
-![LighthouseMAIN]()
-![lighthouseMAP]()
+![LighthouseMAIN](https://github.com/nschloesserm/project1/blob/c16e4d5c190666ed96b39207ec85b699e25d452e/assets/images/index-lighthouse.pdf#L1)
+![lighthouseMAP](https://github.com/nschloesserm/project1/blob/c16e4d5c190666ed96b39207ec85b699e25d452e/assets/images/map-lighthouse.pdf#L1)
 
 ### Validator Testing 
 
