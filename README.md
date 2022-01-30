@@ -72,8 +72,8 @@ In addition to the contact page, there is an interactive sandwich map page that 
 
 Using the developer tools of the browser, I was able to adjust the position and sizing of the elements using media queries.  This was mostly a process of trial and error, systematically adjusting for the size of the screen.  Then I ran a series of lighthouse test to make sure the website was running efficently.  The result of that can be seen in the pdf links below.  I firsts ran these test through the server created in gitpod, then on the github pages final site.  Occasionally having to readjust my media queries to make the site run smoothly regardless of screen size.
 
-[LighthouseMAIN](https://github.com/nschloesserm/project1/blob/c16e4d5c190666ed96b39207ec85b699e25d452e/assets/images/index-lighthouse.pdf#L1)
-[lighthouseMAP](https://github.com/nschloesserm/project1/blob/c16e4d5c190666ed96b39207ec85b699e25d452e/assets/images/map-lighthouse.pdf#L1)
+[Lighthouse Main Page](https://github.com/nschloesserm/project1/blob/c16e4d5c190666ed96b39207ec85b699e25d452e/assets/images/index-lighthouse.pdf#L1)
+[Lighthouse Map Page](https://github.com/nschloesserm/project1/blob/c16e4d5c190666ed96b39207ec85b699e25d452e/assets/images/map-lighthouse.pdf#L1)
 
 ### Validator Testing 
 
@@ -93,21 +93,18 @@ The live link can be found here - https://nschloesserm.github.io/project1/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The code for the parrallax scrolling, the dropdown menu, and the CSS animations was learned through tutorials at https://www.w3schools.com/
+- The footer and the contact form code came from the love running Essentials project through the Code Institute tutorials.
+- In order to get the corrodinates for the map image I used http://www.image-map.net/
+- The interactive image map and pop ups were implimented with code from a tutorial on Medium entitled "Interactive Image Maps and Closable Popups with HTML and CSS only" at https://matemarschalko.medium.com/interactive-image-maps-and-closable-popups-with-html-and-css-only-31fe36c70092
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Some of the fonts were taken from [Google Fonts](https://fonts.google.com)
+- The text for the Origins section of the sight was taken from [Wikipedia](https://en.wikipedia.org/wiki/Sandwich) and [History.com](https://www.history.com/news/the-story-of-the-sandwich) articles
+
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
+- The photos used throughout the site, with the exception of the map pop ups, came from the free stock images site https://www.pexels.com/
+- The images used for the pop ups came from the sites for the restaurants linked directly beneath them.
