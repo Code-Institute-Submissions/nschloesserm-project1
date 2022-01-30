@@ -22,7 +22,7 @@ In addition to the contact page, there is an interactive sandwich map page that 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/nschloesserm/project1/blob/d191eee24836acf3c88da42352e134054a5098b9/assets/images/landingscreen.png)
 
 - __Club Ethos Section__
 
