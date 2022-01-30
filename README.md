@@ -39,23 +39,29 @@ In addition to the contact page, there is an interactive sandwich map page that 
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Sandwiches of Dublin.  Each link will lead to the relevant social media site connect to Sandwiches of Dublin.
+  - The footer allows people to connect through social media, and has a fun inverted color scheme when hovered over.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/nschloesserm/project1/blob/bbb1b61771ab8e15286847ff74ff61ccb68aa698/assets/images/footer-page.png)
 
-- __Gallery__
+- __Sandwich Map__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Map](https://github.com/nschloesserm/project1/blob/436a9022fa345b69b06a28c19f28d6bb59f88c5a/assets/images/map-page.png)
 
-- __The Sign Up Page__
+- __Gallery__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![gallery](https://github.com/nschloesserm/project1/blob/436a9022fa345b69b06a28c19f28d6bb59f88c5a/assets/images/gallery-page.png)
+
+- __Contact Page__
+
+  - This page will allow the user to contact the website owners with sugestions for sandwiches in the Dublin area, or with any comments about the site.  It also gives the user a chance to sign up for the Sandwiches of Dublin Newsletter with their email address.
+
+![Contact](https://github.com/nschloesserm/project1/blob/436a9022fa345b69b06a28c19f28d6bb59f88c5a/assets/images/contact-page.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
