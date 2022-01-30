@@ -8,14 +8,12 @@ In addition to the contact page, there is an interactive sandwich map page that 
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all of the pages of the webiste, the navigation bar includes the title of the website which adjusts and changes with the screen size. It also has a home button which returns the user to the first top of the page. Finally, it has a menu which, when hovered over, displays the sandwich origins and manifesto in page links, and the links to the Sandwich Map, Gallery, and Contact pages.
+  - The home and menu part of the navigation bar is sticky, which allows the user to have access to them at all time and in all formats. This gives the user access to all parts of the site without the need of the back button or unnecessary scrolling.
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
