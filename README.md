@@ -72,8 +72,8 @@ In addition to the contact page, there is an interactive sandwich map page that 
 
 Using the developer tools of the browser, I was able to adjust the position and sizing of the elements using media queries.  This was mostly a process of trial and error, systematically adjusting for the size of the screen.  Then I ran a series of lighthouse test to make sure the website was running efficently.  The result of that can be seen in the pdf links below.  I firsts ran these test through the server created in gitpod, then on the github pages final site.  Occasionally having to readjust my media queries to make the site run smoothly regardless of screen size.
 
-![LighthouseMAIN](https://github.com/nschloesserm/project1/blob/c16e4d5c190666ed96b39207ec85b699e25d452e/assets/images/index-lighthouse.pdf#L1)
-![lighthouseMAP](https://github.com/nschloesserm/project1/blob/c16e4d5c190666ed96b39207ec85b699e25d452e/assets/images/map-lighthouse.pdf#L1)
+[LighthouseMAIN](https://github.com/nschloesserm/project1/blob/c16e4d5c190666ed96b39207ec85b699e25d452e/assets/images/index-lighthouse.pdf#L1)
+[lighthouseMAP](https://github.com/nschloesserm/project1/blob/c16e4d5c190666ed96b39207ec85b699e25d452e/assets/images/map-lighthouse.pdf#L1)
 
 ### Validator Testing 
 
@@ -84,18 +84,11 @@ Using the developer tools of the browser, I was able to adjust the position and 
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+There were some bugs left unfixed with the external links on the map, but it still functions well.  In retrospect, the interactive map feature would have probably functions better ans some sort of iframe google map setup or a map made with JS. Though I thought that the boutique aspect and style of the map was an important feature to the sight.  I also had a "favicon.ico failed to load" error, but after some forum surfing an easy fix was discovered.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://nschloesserm.github.io/project1/ 
 
 
 ## Credits 
