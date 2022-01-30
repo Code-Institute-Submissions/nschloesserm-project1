@@ -24,19 +24,18 @@ In addition to the contact page, there is an interactive sandwich map page that 
 
 ![Landing Page](https://github.com/nschloesserm/project1/blob/d191eee24836acf3c88da42352e134054a5098b9/assets/images/landingscreen.png)
 
-- __Club Ethos Section__
+- __Sandwich Animation Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The sandwich animation was added ain an effort to draw the user into the website and guide them to continue scrolling through the parrallax images between the section.
+  - It is an eye catching way to keep the user interested and is done with layers of PNG files animated with css to create the effect of the opening and closing sandwich.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Sandwich Animation](https://github.com/nschloesserm/project1/blob/436a9022fa345b69b06a28c19f28d6bb59f88c5a/assets/images/sandwich-animation-page.png)
 
-- __Meetup Times section__
+- __Sandwich Origins Section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section gives the user a brief and fun introduction into the history of where sandwiches originated.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times](https://github.com/nschloesserm/project1/blob/436a9022fa345b69b06a28c19f28d6bb59f88c5a/assets/images/origins-page.png)
 
 - __The Footer__ 
 
