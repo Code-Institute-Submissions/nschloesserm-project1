@@ -112,6 +112,7 @@ title {
   background-repeat: no-repeat;
   height: 800px;
   width: 100%;
+  background-size: cover;
   background-color: lightblue;
 }
 
