@@ -49,7 +49,7 @@ In addition to the contact page, there is an interactive sandwich map page that 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Map](https://github.com/nschloesserm/project1/blob/436a9022fa345b69b06a28c19f28d6bb59f88c5a/assets/images/map-page.png)
+![Map](https://github.com/nschloesserm/project1/blob/5b63b554be099412a59fcaf39ab528314d5cf3bb/assets/images/map-page.png)
 
 - __Gallery__
 
