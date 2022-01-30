@@ -4,7 +4,7 @@ Sandwiches of Dublin is a site which the user can use to find the best sandwiche
 
 In addition to the contact page, there is an interactive sandwich map page that gives the user an oportunity to view the best sandwiches in each postal code of Dublin. There is also a gallery of sandwich images, which will be updated as the site grows in participation. The overall intention of the site is to give both an education about the sandwiches in dublin, and to create a community of like minded sandwich lovers.
 
-![Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Mockup](https://github.com/nschloesserm/project1/blob/379b58c6b693804846678981867ccaf6f5303dc6/assets/images/mockup.png)
 
 ## Features 
 
